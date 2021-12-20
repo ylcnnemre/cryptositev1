@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.coinData{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    cursor: pointer;
+}
+.coin-price{
+    display: flex;
+    align-items: center;
+}
+.arrow-icon{
+    margin-left: 5px;
+}
+.coinHeader{
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.coinHeader > h4{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.chart{
+    
+}
